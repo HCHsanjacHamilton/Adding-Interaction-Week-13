@@ -4,7 +4,7 @@ let toggled = false;
       gallery.src = "./assets/image1.jpg"; 
       toggled = false;
     } else {
-      gallery.src = "./assets/image-does-not-exist.jpg"; 
+      gallery.src = "https://github.com/HCHsanjacHamilton/Adding-Interaction-Week-13/blob/main/assets/strawberry_PNG2631.png?raw=true"; 
       toggled = true;
     }
   });
