@@ -23,8 +23,6 @@ p {
   text-align: center;
   }
 
-
-
 footer {
   align-items: center;
   background: #222;
@@ -33,9 +31,8 @@ footer {
   grid-area: footer;
   justify-content: center;
   margin: 2rem;
+ 
 }
-
-
 
 button {
   display: block;
@@ -54,7 +51,7 @@ button:hover {
 }
 
 .dark-mode {
-  background: #222 !important;
+  background: #222;
   color: white;
 }
 
