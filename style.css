@@ -1,0 +1,59 @@
+h1 { 
+  text-align: center;
+}
+
+h3 { 
+  text-align: center;
+}
+
+body {
+  background: #bff9ff;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  transform: scale(1);
+}
+
+p {
+  display: flex;
+  font-size: 1.4rem;
+  margin: 5rem;
+  text-align: center;
+}
+
+footer {
+  align-items: center;
+  background: #222;
+  color: white;
+  display: flex;
+  grid-area: footer;
+  justify-content: center;
+  margin: 2rem;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background: #004980;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0091ff;
+}
+
+.dark-mode {
+  background: #222;
+  color: white;
+}
+
+.dark-mode p {
+  color: white;
+}
