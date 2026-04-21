@@ -49,11 +49,32 @@ button:hover {
   background: #0091ff;
 }
 
+
+.dark-mode body {
+  background: #222;
+}
+
+.dark-mode h1,
+.dark-mode h3 {
+  color: white;
+}
+
+.dark-mode footer {
+  background: #111;
+  color: white;
+}
+
+.dark-mode button {
+  background: #555;
+  color: white;
+}
+
+.dark-mode button:hover {
+  background: #777;
+}
+
 .dark-mode {
   background: #222;
   color: white;
 }
 
-.dark-mode p {
-  color: white;
-}
